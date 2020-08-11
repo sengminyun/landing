@@ -3,23 +3,38 @@
     padding: 0;
     font-family: 'Nanum Gothic', sans-serif;
 }
-
 #myVideo{
     position: relative;
     top: -135px;
 
 }
-
+.top-con{
+    background: url(../image/main-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.bottom-con{
+    background: linear-gradient(90deg, #89caf7, #46aae5);
+    position: relative;
+    width: 100%;
+    top: -20px;
+    box-shadow: 10px 0 black;
+}
 .title-sub{
     font-size: 5.3rem;
     font-weight: bold;
+    padding-bottom: 5%;
+}
+.title{
+    padding-bottom: 5%;
 }
 .title img{
     width: 45%;
 }
 .event-box{
-    background-color: #b0afe4;
+    background-color: #fff;
 }
 .event-box h2{
     font-weight: bold;
 }
+
